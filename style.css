@@ -36,12 +36,16 @@ font-family: 'Nunito Sans', sans-serif;
         width: 100%;
         font-weight: bolder;
     }
+    form {
+        text-align: center;
+    }
     
     button.btn.btn-primary.rounded-0 {
  
         width: 40%;
+      
       background-color: #BCBBB9;
-        margin: 10px 105px;
+        /* margin: 10px 105px; */
         border: none;
         color: black;
         font-weight: 800;
@@ -54,23 +58,29 @@ font-family: 'Nunito Sans', sans-serif;
     .output h6 {
         font-size: 14px;
     }
-    @media(max-width:768px){
+    @media(max-width:468px){
         .output{
-            width: 50%;
-            height: 60vh;
-            transform: translate(50%, 50%);
+            width: 81%;
+            height: 77vh;
+            transform: translate(13%, 16%);
         }
-        button.btn.btn-primary.rounded-0{
-            margin: 10px 100px;
-        }
+      
     }
-    @media(min-width:768px) and (max-width:1024px){
+    @media(min-width:468px) and (max-width:768px){
         button.btn.btn-primary.rounded-0{
             margin: 10px 80px;
         }
         .output{
-       
-            height: 60vh;
-       
+            width: 54%;
+            height: 69vh;
+            transform: translate(43%, 23%);
+        }
+    }
+    @media(min-width:768px) and (max-width:1024px){
+    
+        .output{
+            width: 40%;
+            height: 69vh;
+            transform: translate(79%, 23%);
         }
     }
