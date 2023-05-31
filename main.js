@@ -26,7 +26,8 @@ p.innerText = DateTime
 h4.innerText = Temperature
 h6.innerText = weather
 image.setAttribute = ("src", imageUrl)
-console.log(imageUrl)
+// console.log(imageUrl)
+// image.setAttribute = imageUrl
 
  }catch(error){
 window.alert ("Out Of World")

@@ -33,7 +33,7 @@ font-family: 'Nunito Sans', sans-serif;
     
     input[type="text"] {
         color: #DC530F;
-        width: 100%;
+        min-width: 100%;
         font-weight: bolder;
     }
     form {
@@ -61,7 +61,7 @@ font-family: 'Nunito Sans', sans-serif;
     @media(max-width:468px){
         .output{
             width: 81%;
-            height: 77vh;
+            height: 50vh;
             transform: translate(13%, 16%);
         }
       
@@ -72,7 +72,7 @@ font-family: 'Nunito Sans', sans-serif;
         }
         .output{
             width: 54%;
-            height: 69vh;
+            height: 55vh;
             transform: translate(43%, 23%);
         }
     }
@@ -80,7 +80,7 @@ font-family: 'Nunito Sans', sans-serif;
     
         .output{
             width: 40%;
-            height: 69vh;
+            height: 55vh;
             transform: translate(79%, 23%);
         }
     }
